@@ -1,4 +1,4 @@
-# Authentication with JWT & Session NodeJs
+# Authentication with JWT & Session NodeJs (TypeORM)
 This app is written for the Patika.dev Gusto&RemoteTeam sponsored NodeJs Bootcamp as homework of 3rd week. 
 
 
