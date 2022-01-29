@@ -1,4 +1,4 @@
-# Authentication with JWT & Session NodeJs
+# Authentication with JWT & Session NodeJs (TypeORM)
 This app is written for the Patika.dev Gusto&RemoteTeam sponsored NodeJs Bootcamp as homework of 3rd week. 
 
 
@@ -10,7 +10,7 @@ This app is written for the Patika.dev Gusto&RemoteTeam sponsored NodeJs Bootcam
 
 As requested, user authentication system created in the app. 
 
-In order to access `/users` route, user has to be logged in. Authorization control is made by JWT token and session info stored in MongoDB database.
+In order to access `/users` route, user has to be logged in. Authorization control is made by JWT token and session info stored in MySQL database.
 
 After logging in, all users list is rendered in `/users` route. 
 
@@ -22,6 +22,6 @@ Download or clone the repository. In the root folder run in terminal the command
 npm start 
 ```
 
-Then Open `http://localhost:3001` in your browser. MongoDB is prerequisite.
+Then Open `http://localhost:3001` in your browser. MySQL is prerequisite.
 
 
