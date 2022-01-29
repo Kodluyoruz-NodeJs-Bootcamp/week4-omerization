@@ -26,6 +26,7 @@ middleware.verifyJWTToken = (req: Request, res: Response, next: NextFunction) =>
 //function to check if user is logged in
 middleware.isLoggedIn = (req: Request, res: Response, next: NextFunction) => {
   if (!req.session.isLoggedIn) {
+    console.log(req.session.isLoggedIn);
     req.flash("error", "Giriş yapman lazım");
     return res.redirect('/login');
   }

@@ -5,7 +5,7 @@ import { JwtPayload } from 'jsonwebtoken';
 
 //types and interfaces globally declared below
 
-namespace NodeJS {
+declare namespace NodeJS {
   interface ProcessEnv {
     NODE_ENV: string;
     PORT: string;
